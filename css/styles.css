@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* --------------------------navbar-------------- */
+
+.container {
+  width: 1407px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.navbar__items {
+  width: 80%;
+}
+.navbar__items ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 48px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.navbar__items ul li i {
+  margin-left: 8px;
+}
+
+.navbar__contact {
+  width: 20%;
+  text-align: right;
+}
+
+.navbar__contact a {
+  display: inline-block;
+  background-color: #ff5538;
+  padding: 14px 28px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
